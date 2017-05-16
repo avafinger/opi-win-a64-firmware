@@ -10,7 +10,7 @@ Disclaimer: Use at own risk
 
 ## OPi Win A64 Booting linux
 
-[![OPI A64 Booting linux](https://github.com/avafinger/opi-a64-firmware/raw/master/img/opi-a64.png)](https://youtu.be/kH-1PC7chIU)
+[![OPI A64 Booting linux](https://github.com/avafinger/opi-a64-firmware/raw/master/img/opi-a64.jpg)](https://youtu.be/kH-1PC7chIU)
 
 
 This is a LXDE OS image for the Orange Pi Win A64
