@@ -27,5 +27,23 @@ This is a LXDE OS image for the Orange Pi Win A64
 - Firefox 64bit - stable
 - HW decoding H264 (1080P)  - https://github.com/avafinger/cedrusH264_vdpau_A64
 
+Improved GC2035
+---------------
+Improved gc2035 driver is included in the OS Image
+
+* hres=0 => 640x480|1280x720|1600x1200 and 15 fps (good light condition), 640x480 good quality
+* hres=1 => 800x600|1600x1200 and 10 fps (good light condition), 800x600 good quality
+* hres=2 => 320x240|640x480|800x600 and 20 fps (good light condition), 640x480 medium quality
+* hres=3 => 320x240|352x288|640x480 and 15 fps (good light condition), low quality, cropped to this window sizes
+
 Issues:
 - None at the moment
+
+History Log:
+------------
+- initial commit
+- added video
+- image built with gcc 6.3
+- ssh 
+- initial work on GC2035 driver
+- Improved GC2035 support
