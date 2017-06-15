@@ -46,13 +46,14 @@ You will need a linux box to create the OS Image.
 - Get a good PSU to power the board with the barrel conector, ensure your 
   PSU is rated 2.5A and 5v
 - Get a good USB card reader/writer, this is really important!
+- Don't use HDMI to DVI converter if you can
 
 Requirements
 ------------
 - Install md5sum and git on your host PC
 - Your HOST PC must be running linux
 - check-list the items above about SD CARD, PSU and USB card reader/writer
-
+- Image is default to 1080P, HDMI so you need a 1080P monitor
 
 ### Manual installation
 
@@ -69,7 +70,8 @@ Requirements
     or
 
 
-            Click on the green button [Clone or download] button and choose **Download Zip**
+            Click on the green button [Clone or download] and choose *Download Zip*
+            Unzip it with your preferred tool
             cd opi-win-a64-firmware-master
 
 
@@ -114,6 +116,26 @@ Requirements
   
             user: ubuntu
             pass: ubuntu
+
+
+2.  On the first boot type in the command line:
+
+    a. For update
+
+           sudo apt-get update
+           sudo apt-get dist-upgrade
+           sync
+
+    b. Shutdown and do a cold boot.
+
+           sudo shutdwon -h now (wait....)
+           unplug the power cord from the board
+
+
+    c. Boot again
+    
+           Enjoy!
+
 
 
 Issues:
