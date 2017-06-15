@@ -26,7 +26,7 @@ This is a LXDE OS image for the Orange Pi Win A64
 - Kernel 3.10.105 - status: working
 - Leds (Green) - status: working - "heartbeat"
 - Firefox 64bit - stable
-- HW decoding H264 (1080P)  - https://github.com/avafinger/cedrusH264_vdpau_A64
+- HW decoding H264 (1080P) - https://github.com/avafinger/cedrusH264_vdpau_A64 (installed)
 
 Improved GC2035
 ---------------
@@ -53,7 +53,7 @@ Requirements
 - Install md5sum and git on your host PC
 - Your HOST PC must be running linux
 - check-list the items above about SD CARD, PSU and USB card reader/writer
-- Image is default to 1080P, HDMI so you need a 1080P monitor
+- Image is default to 1080P, HDMI so you need a 1080P monitor and HW decoding installed
 
 ### Manual installation
 
@@ -105,6 +105,8 @@ Requirements
 
     e.  **Start flashing... (Warning, make sure you get the correct device or you may WIPE your HDD)**
 
+        Run with sudo or root
+
 
             sudo chmod +x *.sh
             sudo ./format_sd.sh /dev/sdc
@@ -147,7 +149,7 @@ Credits:
 @lex, longsleep, Armbian, BananaPi, FriendlyArm and all those nice people who really cares to answer questions. :)
 
 
-If you want to play with mailine kernel, go to Armbian and check the work of @martinayotte.
+If you want to play with mainline kernel (4.1x), go to Armbian and check the work of @martinayotte.
 
 **Enjoy it!**
 
