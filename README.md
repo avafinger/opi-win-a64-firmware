@@ -53,7 +53,7 @@ Requirements
 - Install md5sum and git on your host PC
 - Your HOST PC must be running linux
 - check-list the items above about SD CARD, PSU and USB card reader/writer
-- Image is default to 1080P, HDMI so you need a 1080P monitor and HW decoding installed
+- Image is default to 1080P, HDMI so you need a 1080P monitor. HW decoding already installed
 
 ### Manual installation
 
