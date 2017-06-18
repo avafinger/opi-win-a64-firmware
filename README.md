@@ -16,7 +16,7 @@ Disclaimer: Use at own risk
 
 ## OPi Win A64 with MATE 1.12.1
 
-[![OPI A64 Booting linux](https://github.com/avafinger/opi-win-a64-firmware/raw/master/img/opi-a64-mate.jpg)](https://youtu.be/32o36DsCaiw)
+[![OPI A64 Booting linux](https://github.com/avafinger/opi-win-a64-firmware/raw/master/img/opi-a64-mate.png)](https://youtu.be/32o36DsCaiw)
 
 
 This is a LXDE OS image for the Orange Pi Win A64
