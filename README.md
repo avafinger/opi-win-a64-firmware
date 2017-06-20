@@ -154,7 +154,7 @@ Credits:
 @lex, longsleep, Armbian, BananaPi, FriendlyArm and all those nice people who really cares to answer questions. :)
 
 
-If you want to play with mainline kernel (4.1x), go to Armbian and check the work of @martinayotte.
+If you want to play with mainline kernel (4.1x), go to Armbian and check the work done by @martinayotte.
 
 **Enjoy it!**
 
